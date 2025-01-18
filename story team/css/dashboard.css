@@ -1,0 +1,145 @@
+
+
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f9ff;
+  color: #2c3e50;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  background-color: #1b3a57;
+  padding: 20px;
+  margin: 0;
+  border-radius: 0 0 10px 10px;
+  color: white;
+}
+#welcome-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#welcome-container input {
+  padding: 10px;
+  margin: 10px auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 300px;
+}
+
+#greeting {
+  font-size: 18px;
+  color: #1b3a57;
+  margin-top: 10px;
+}
+
+#logout-btn {
+  background-color:white;
+
+   color: #1b3a57; 
+   padding: 5px 10px; 
+   border: none; 
+   border-radius: 20px;
+   position: absolute ;
+    right:10px;
+  font-size: 15px;
+}
+
+#logout-btn:hover {
+  background-color: #c0392b;
+}
+
+button {
+  background-color: #1b3a57;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #154256;
+}
+
+
+input[type="text"], input[type="date"], select {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 200px;
+}
+
+input[type="text"]:focus, input[type="date"]:focus, select:focus {
+  border-color: #1b3a57;
+  outline: none;
+}
+
+
+.project {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project h2 {
+  color: #1b3a57;
+  margin-bottom: 10px;
+}
+
+.project p {
+  margin: 5px 0;
+}
+
+.project .task {
+  background-color: #f0f4f8;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.project .task.completed {
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+.project .task h4 {
+  color: #2c3e50;
+  margin: 0 0 5px;
+}
+
+
+button.delete {
+  color:white;
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button.delete:hover {
+  text-decoration: underline;
+}
+
+
+div > input, div > select, button {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+div#app {
+  max-width: 800px;
+  margin: 20px auto;
+}

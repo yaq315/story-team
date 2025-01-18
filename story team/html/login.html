@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>log in</title>
+  <link rel="icon" type="image/x-icon" href="../pic/lo.png">
+
+  <link rel="stylesheet" href="../css/login.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+  <section class="h-100 gradient-form" style="background-color: #eee;">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-xl-10">
+          <div class="card rounded-3 text-black">
+            <div class="row g-0">
+              <div class="col-lg-6">
+                <div class="card-body p-md-5 mx-md-4">
+
+                  <div class="text-center">
+                    <img src="../pic/LOGO.png" style="width: 185px;" alt="logo">
+                    <h4 class="mt-1 mb-5 pb-1"></h4>
+                  </div>
+
+                  <form>
+
+
+                    <div data-mdb-input-init class="form-outline mb-4">
+                      <label for="Email"></label>
+                      <p class="p1">Please login to your account</p>
+                      <input type="email" id="Email" class="form-control" placeholder=" Please enter your email" />
+                      <span id="Eerror" class="text-danger small s-n "></span>
+                
+                    </div>
+                    <label class="form-label" for="Password"  >Password</label>
+                    <div data-mdb-input-init class="form-outline mb-4">
+                      <input type="password" id="Password" class="form-control"  placeholder=" Please enter your Password" />
+                      <span id="Perror" class="text-danger small s-n "></span>
+
+                    </div>
+
+
+                    <div class="d-flex align-items-center justify-content-center pb-4">
+                      <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-outline-primary"
+                        id="btnl">
+                        <a href="../html/dashboard.html" style="text-decoration: none;">Login</a>
+                      </button>
+                    </div>
+                    <p id="p2" class="mb-0-me-2">Don't have an account? </p>
+                    <a id="aa" class="text-decoration-none" href="../html/signup.html">SignUp</a>
+                  </form>
+                </div>
+              </div>
+              <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
+                <div class="text-white px-3 py-4 p-md-5 mx-md-4">
+                  <h4 class="mb-4">We are more than just a company</h4>
+                  <p class="small mb-3"> <i>Story - Task Management Made Simple
+                    Story is a user-friendly task management system designed to help individuals and teams organize,<br><br>
+                     prioritize, and track their work effectively. Whether you're managing personal goals or collaborating on complex projects,<br><br>
+                      Story offers intuitive tools to streamline your workflow. With features like task assignments, deadlines, progress tracking,<br><br>
+                       and team communication, Story empowers you to stay on top of your tasks and achieve your objectives seamlessly.<br><br>
+                    
+                    Experience productivity redefined with Story – your partner in turning ideas into actions!</i></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="../js/login.js"></script>
+</body>
+
+</html>

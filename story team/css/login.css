@@ -1,0 +1,37 @@
+.gradient-custom-2 {
+    background:#29405e;
+    }
+.mb-0-me-2 , .p1 ,.form-label
+{
+    color: #29405e;
+}
+
+
+
+    @media (min-width: 768px) {
+    .gradient-form {
+    height: 100vh !important;
+    }
+    }
+    @media (min-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+    }
+
+    p {
+padding-bottom: 5px;
+}
+
+#p2 {
+    margin-left: 120px;
+
+}
+
+section {
+    justify-content: center;
+}
+#aa {
+    margin-left: 170px;
+}

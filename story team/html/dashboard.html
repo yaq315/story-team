@@ -1,0 +1,58 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project and Task Manager</title>
+  <link rel="icon" type="image/x-icon" href="../pic/lo.png">
+  <link rel="stylesheet" href="../css/dashboard.css">
+</head>
+<body>
+ 
+  <h1>
+    <img src="../pic/lo.png" alt="" width="70px" height="70px" style="position: absolute;top: 0px;left: 0px;">
+    Project and Task Manager
+    <button id="logout-btn" >Logout</button>
+  </h1>
+  <div id="welcome-container" style="text-align: center; margin: 20px 0;">
+    <p id="greeting" style="font-size: 18px; color: #1b3a57;"></p>
+
+    
+  </div>
+
+  
+
+  <div>
+    <!-- story-Search Bar -->
+    <input type="text" id="search-bar" placeholder="Search tasks..." oninput="filterTasks()"/>
+
+    <!-- story-Add Project Button -->
+    <button onclick="addProject()">Add New Project</button>
+
+    <!--story- Filters -->
+    <select id="status-filter" onchange="filterTasks()">
+      <option value="All">All</option>
+      <option value="To-Do">To-Do</option>
+      <option value="In Progress">In Progress</option>
+      <option value="Completed">Completed</option>
+    </select>
+
+    <input type="date" id="date-filter" onchange="filterTasks()" />
+
+    <!-- story-Sorting -->
+    <select id="sort-order" onchange="filterTasks()">
+      <option value="asc"> A → Z</option>
+      <option value="desc"> Z → A</option>
+    </select>
+  </div>
+
+  <!--story- App Container -->
+  <div id="app"></div>
+
+  <!-- story-Link to JS file -->
+  <script src="../js/dashboard.js"></script>
+</body>
+</html>
